@@ -5,7 +5,6 @@ import { getDiscountPrice } from "../../helpers/product";
 import ProductImageGallery from "../../components/product/ProductImageGallery";
 import ProductDescriptionInfo from "../../components/product/ProductDescriptionInfo";
 import ProductImageGallerySideThumb from "../../components/product/ProductImageGallerySideThumb";
-import ProductImageFixed from "../../components/product/ProductImageFixed";
 
 const ProductImageDescription = ({ spaceTopClass, spaceBottomClass, galleryType, product }) => {
   const currency = useSelector((state) => state.currency);
@@ -34,8 +33,6 @@ const ProductImageDescription = ({ spaceTopClass, spaceBottomClass, galleryType,
               />
             ) : galleryType === "rightThumb" ? (
               <ProductImageGallerySideThumb product={product} />
-            ) : galleryType === "fixedImage" ? (
-              <ProductImageFixed product={product} />
             ) : (
               <ProductImageGallery product={product} />
             )}
