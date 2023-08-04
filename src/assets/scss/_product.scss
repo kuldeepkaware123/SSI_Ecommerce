@@ -3348,35 +3348,33 @@
 /* product home 9*/
 
 .collection-wrap-2 {
-  margin-top: -175px;
+  // margin-top: -175px;
   @media #{$md-layout} {
-    margin-top: -97px;
+    // margin-top: -97px;
   }
   @media #{$xs-layout} {
-    margin-top: -80px;
+    // margin-top: -80px;
   }
   @media #{$sm-layout} {
-    margin-top: -70px;
+    // margin-top: -70px;
   }
 }
 
 .collection-product-2 {
   position: relative;
-
+  width: 25%;
   overflow: hidden;
+  text-align: center;
+  margin-top: 35px;
   a {
     img {
-      width: 100%;
-
+      width: 50%;
+     
       transition: all 0.5s ease 0s;
       transform: scale(1);
     }
   }
   .collection-content-2 {
-    position: absolute;
-    right: 0;
-    bottom: 30px;
-    left: 0;
 
     text-align: center;
     span {
@@ -3387,8 +3385,7 @@
       font-size: 16px;
       font-weight: 500;
       line-height: 21px;
-
-      margin: 5px 0 0;
+      margin: 5px 0px;
     }
   }
   &:hover a img {

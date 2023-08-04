@@ -3,7 +3,24 @@ import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import { getProducts } from "../../helpers/product";
 import ProductGridSingle from "../../components/product/ProductGridSingle";
+import Swiper, { SwiperSlide } from "../../components/swiper";
 
+
+const settings = {
+  loop: false,
+  spaceBetween: 30,
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    576: {
+      slidesPerView: 2
+    },
+    992: {
+      slidesPerView: 4
+    }
+  }
+};
 const ProductGrid = ({
   spaceBottomClass,
   category,
@@ -16,12 +33,13 @@ const ProductGrid = ({
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
   const prods = getProducts(products, category, type, limit)
-  
+
   return (
     <Fragment>
-      {prods?.map(product => {
-        return (
-          <div className="col-xl-3 col-md-6 col-lg-4 col-sm-6" key={product.id}>
+
+      <Swiper options={settings}>
+        {prods.map((product, key) => (
+          <SwiperSlide key={key}>
             <ProductGridSingle
               spaceBottomClass={spaceBottomClass}
               product={product}
@@ -40,10 +58,10 @@ const ProductGrid = ({
                 )
               }
             />
-          </div>
-        );
-      })}
-    </Fragment>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </Fragment >
   );
 };
 

@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import clsx from "clsx"
 import blogFeaturedData from "../../data/blog-featured/blog-featured.json";
 import BlogFeaturedSingle from "../../components/blog-featured/BlogFeaturedSingle";
-import SectionTitleTwo from "../../components/section-title/SectionTitleTwo";
+import SectionTitle from "../../components/section-title/SectionTitle";
 
 const BlogFeaturedTwo = ({ spaceBottomClass }) => {
   return (
     <div className={clsx("blog-area", spaceBottomClass)}>
       <div className="container">
-        <SectionTitleTwo
+        <SectionTitle
           titleText="OUR BLOG"
           subTitleText="Lorem ipsum dolor sit amet conse ctetu."
           positionClass="text-center"

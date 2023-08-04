@@ -1,28 +1,57 @@
 [
+  
   {
     "id": "1",
-    "image": "https://flone.jamstacktemplates.dev/assets/img/product/hm9-cagi-1.jpg",
+    "image": "/assets/img/product/mobile.png",
     "subtitle": "4 Products",
     "title": "Bluetooth Speaker",
     "link": "/shop-grid-standard"
   },
   {
     "id": "2",
-    "image": "https://flone.jamstacktemplates.dev/assets/img/product/hm9-cagi-2.jpg",
-    "subtitle": "8 Products",
-    "title": "Bluetooth Headphone",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
     "link": "/shop-grid-standard"
   },
   {
     "id": "3",
-    "image": "https://flone.jamstacktemplates.dev/assets/img/product/hm9-cagi-3.jpg",
-    "subtitle": "9 Products",
-    "title": "Kardon Aura Studio",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
     "link": "/shop-grid-standard"
   },
   {
     "id": "4",
-    "image": "/assets/img/product/hm9-cagi-2.jpg",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": "5",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": "6",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": "7",
+    "image": "/assets/img/product/mobile.png",
+    "subtitle": "4 Products",
+    "title": "Bluetooth Speaker",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": "8",
+    "image": "/assets/img/product/mobile.png",
     "subtitle": "4 Products",
     "title": "Bluetooth Speaker",
     "link": "/shop-grid-standard"

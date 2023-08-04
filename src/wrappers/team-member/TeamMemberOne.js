@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import SectionTitleTwo from "../../components/section-title/SectionTitleTwo";
+import SectionTitle from "../../components/section-title/SectionTitle";
 import teamMemberData from "../../data/team-members/team-member-one.json";
 import TeamMemberOneSingle from "../../components/team-member/TeamMemberOneSingle";
 
@@ -9,7 +9,7 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
     <div className={clsx("team-area", spaceTopClass, spaceBottomClass)}>
       <div className="container">
         {/* section title */}
-        <SectionTitleTwo
+        <SectionTitle
           titleText="Team Members"
           subTitleText="Lorem ipsum dolor sit amet conse ctetu."
           positionClass="text-center"
